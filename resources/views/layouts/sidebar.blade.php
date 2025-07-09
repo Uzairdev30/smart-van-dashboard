@@ -46,7 +46,7 @@
           <div class="logo-header" data-background-color="dark">
             <a href="index.html" class="logo">
               <img
-                src="assets/img/kaiadmin/logo_light.svg"
+                src="{{ asset('assets/img/kaiadmin/logo_light.png') }}"
                 alt="navbar brand"
                 class="navbar-brand"
                 height="20"
@@ -230,6 +230,11 @@
                   class="selected changeLogoHeaderColor"
                   data-color="dark"
                 ></button>
+                <!-- <button
+                  type="button"
+                  class="changeLogoHeaderColor"
+                  data-color="grey"
+                ></button> -->
                 <button
                   type="button"
                   class="changeLogoHeaderColor"
@@ -261,6 +266,11 @@
                   class="selected changeTopBarColor"
                   data-color="dark"
                 ></button>
+                <!-- <button
+                  type="button"
+                  class="changeTopBarColor"
+                  data-color="grey"
+                ></button> -->
                 <button
                   type="button"
                   class="changeTopBarColor"
